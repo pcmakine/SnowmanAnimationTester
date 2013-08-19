@@ -4,16 +4,35 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
-   <com.example.snowmananimationtester.snowmanWalker
-            android:id="@+id/court"
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"/>
+     <com.example.snowmananimationtester.Ourview
+              android:id="@+id/court"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentLeft="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+  <!--  <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "hello"
+            />-->
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/button"
+            android:layout_below="@+id/hello"
+            android:layout_alignParentBottom="true"
+            android:onClick="startCounter"/>
+
+<!--    <EditText
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint = "input time to sleep here"
+            android:layout_below="@id/button"
+            />-->
 
 </RelativeLayout>
