@@ -25,15 +25,27 @@
             android:id="@+id/button"
             android:layout_below="@+id/hello"
             android:layout_alignParentBottom="true"
-            android:onClick="startCounter"/>
+            android:onClick="startWalking"/>
 
-<!--    <EditText
+    <EditText
             android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint = "input time to sleep here"
-            android:layout_below="@id/button"
-            />-->
+            android:hint = "input time between frames here"
+            android:inputType="number"
+            android:layout_above="@id/button"
+            />
+
+    <EditText
+            android:id="@+id/frames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint = "input number of frames here"
+            android:inputType="number"
+            android:layout_above="@id/time"
+            />
+
+
 
 </RelativeLayout>
 <!-- From: file:/C:/Users/Pete/AndroidStudioProjects/SnowmanAnimationTesterProject/SnowmanAnimationTester/src/main/res/layout/activity_main.xml -->
