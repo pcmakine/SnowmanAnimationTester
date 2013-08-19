@@ -16,9 +16,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1f93f3-75ff-4cf9-8654-f68006ed7f59" name="Default" comment="Snowman is walking!">
+    <list default="true" id="7b1f93f3-75ff-4cf9-8654-f68006ed7f59" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/drawable-hdpi/walkingsnowmanspritesheet.png" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Pete\AndroidStudioProjects\SnowmanAnimationTesterProject\SnowmanAnimationTester\src\main\java\com\example\snowmananimationtester\AsyncTaskRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/AsyncTaskRunner.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java" />
@@ -91,10 +91,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="-7.1923075" vertical-offset="153" max-vertical-offset="2261">
+            <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="0.4204947" vertical-offset="102" max-vertical-offset="2261">
               <folding />
             </state>
           </provider>
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ourview.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Ourview.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="9" selection-start="1223" selection-end="1224" vertical-scroll-proportion="0.33333334" vertical-offset="525" max-vertical-offset="1088">
+            <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-11.192307" vertical-offset="525" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -557,15 +557,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.424612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33592018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2870257" sideWeight="0.575388" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31263858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2870257" sideWeight="0.6873614" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31263858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -764,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="-7.1923075" vertical-offset="153" max-vertical-offset="2261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.040047113" vertical-offset="0" max-vertical-offset="849">
@@ -780,7 +773,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="1223" selection-end="1224" vertical-scroll-proportion="0.33333334" vertical-offset="525" max-vertical-offset="1088">
+        <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-11.192307" vertical-offset="525" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="0.4204947" vertical-offset="102" max-vertical-offset="2261">
           <folding />
         </state>
       </provider>
