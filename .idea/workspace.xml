@@ -18,10 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1f93f3-75ff-4cf9-8654-f68006ed7f59" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/drawable-hdpi/walkingsnowmanspritesheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/AsyncTaskRunner.java" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Pete\AndroidStudioProjects\SnowmanAnimationTesterProject\SnowmanAnimationTester\src\main\java\com\example\snowmananimationtester\AsyncTaskRunner.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/source/r/debug/com/example/snowmananimationtester/R.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/source/r/debug/com/example/snowmananimationtester/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/SnowmanAnimationTester.iml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/SnowmanAnimationTester.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml" />
@@ -94,16 +94,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="0.4204947" vertical-offset="102" max-vertical-offset="2261">
+            <state line="28" column="53" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6307421" vertical-offset="0" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UiUpdater.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java">
+      <file leaf-file-name="Sleeper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="34" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1530">
+            <state line="38" column="17" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1496">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +114,7 @@
       <file leaf-file-name="Ourview.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-11.192307" vertical-offset="525" max-vertical-offset="1088">
+            <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="Sprite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="18" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="918">
+            <state line="26" column="18" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -144,7 +144,16 @@
       <file leaf-file-name="OnProgressListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="15" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -212,12 +221,13 @@
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/SnowmanWalker.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/AsyncTaskRunner.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/onProgressListener.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java" />
       </list>
     </option>
   </component>
@@ -540,6 +550,11 @@
       <created>1376570899210</created>
       <updated>1376570899210</updated>
     </task>
+    <task id="LOCAL-00001" summary="Snowman is walking!">
+      <created>1376936807627</created>
+      <updated>1376936807627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,7 +579,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2870257" sideWeight="0.6873614" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2870257" sideWeight="0.6873614" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31263858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -700,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="621" selection-end="621" vertical-scroll-proportion="0.48398575" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="25" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="952">
@@ -731,13 +739,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="46" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-12.592592" vertical-offset="102" max-vertical-offset="748">
@@ -748,22 +749,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1530">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.040047113" vertical-offset="0" max-vertical-offset="849">
@@ -771,16 +756,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-11.192307" vertical-offset="525" max-vertical-offset="1088">
+        <state line="57" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="18" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="17" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1496">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="901" selection-end="901" vertical-scroll-proportion="0.4204947" vertical-offset="102" max-vertical-offset="2261">
+        <state line="28" column="53" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6307421" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
