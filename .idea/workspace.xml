@@ -17,10 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1f93f3-75ff-4cf9-8654-f68006ed7f59" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Pete\AndroidStudioProjects\SnowmanAnimationTesterProject\SnowmanAnimationTester\src\main\java\com\example\snowmananimationtester\snowmanWalker.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SnowmanAnimationTester.iws" />
@@ -110,7 +107,7 @@
       <file leaf-file-name="Sprite.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.51653945" vertical-offset="137" max-vertical-offset="1054">
+            <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6612378" vertical-offset="137" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -619,15 +616,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41574278" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41433567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924244" sideWeight="0.736014" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26398602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924244" sideWeight="0.58566433" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26398602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -704,7 +701,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="working now as it is supposed to" />
+    <option name="LAST_COMMIT_MESSAGE" value="snowman knows how to walk backwards too" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -722,6 +719,7 @@
     <MESSAGE value="most of irrelevant code deleted" />
     <MESSAGE value="made a bit neater. The user can now choose number of frames and time between them" />
     <MESSAGE value="working now as it is supposed to" />
+    <MESSAGE value="snowman knows how to walk backwards too" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -847,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.51653945" vertical-offset="137" max-vertical-offset="1054">
+        <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6612378" vertical-offset="137" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
