@@ -9,13 +9,22 @@
     tools:context=".MenuActivity">
 
     <Button
+            android:id="@+id/button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Start"
-            android:id="@+id/button"
             android:layout_alignTop="@+id/textView"
             android:layout_alignParentLeft="true"
             android:onClick="start"/>
+
+    <Button
+            android:id="@+id/startGameButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Try surfaceviewgame"
+            android:layout_below="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:onClick="startGame"/>
 
 
 </RelativeLayout>

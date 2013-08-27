@@ -13,11 +13,27 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1f93f3-75ff-4cf9-8654-f68006ed7f59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/CustomSlider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/GameView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/MySurfaceThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceGameActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceSprite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_surfacegame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_surfacegame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/menu/surface_game.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/menu/surface_game.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/source/r/debug/com/example/snowmananimationtester/R.java" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/source/r/debug/com/example/snowmananimationtester/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_menu.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SnowmanAnimationTester.iws" />
@@ -36,6 +52,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -82,10 +99,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
+      <file leaf-file-name="activity_surfacegame.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_surfacegame.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
+            <state line="24" column="47" selection-start="1116" selection-end="1116" vertical-scroll-proportion="3.7777777" vertical-offset="510" max-vertical-offset="1088">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfaceGameActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceGameActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="33" selection-start="749" selection-end="749" vertical-scroll-proportion="-8.653846" vertical-offset="64" max-vertical-offset="1513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/GameView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="51" selection-start="4564" selection-end="4564" vertical-scroll-proportion="0.8586066" vertical-offset="1638" max-vertical-offset="2499">
               <folding />
             </state>
           </provider>
@@ -94,43 +132,52 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="553" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state line="25" column="49" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="799">
               <folding>
                 <element signature="e#427#445#0" expanded="true" />
-                <element signature="e#617#635#0" expanded="true" />
-                <element signature="e#905#934#0" expanded="true" />
+                <element signature="e#568#586#0" expanded="true" />
+                <element signature="e#954#983#0" expanded="true" />
+                <element signature="e#1364#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sprite.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MySurfaceThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/MySurfaceThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1139">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfaceSprite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceSprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="5" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1088">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sprite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6612378" vertical-offset="137" max-vertical-offset="1054">
+            <state line="32" column="75" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ourview.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-8.615385" vertical-offset="626" max-vertical-offset="1088">
-              <folding />
+            <state line="31" column="50" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1054">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-25.703703" vertical-offset="88" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -195,29 +242,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/snowmanWalker.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/SnowmanWalker.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/AsyncTaskRunner.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/onProgressListener.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/UiUpdater.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" />
-        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/GameView.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MySurfaceThread.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/CustomSlider.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceSprite.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_surfacegame.xml" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/MySurfaceThread.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceGameActivity.java" />
+        <option value="$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/GameView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1384" />
-    <option name="height" value="738" />
+    <option name="x" value="1357" />
+    <option name="y" value="-53" />
+    <option name="width" value="1698" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -245,7 +293,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,7 +400,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,9 +434,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SnowmanAnimationTester" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SnowmanAnimationTesterProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SnowmanAnimationTester" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowmananimationtester" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surfacegame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,6 +492,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="almosts3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -598,11 +681,15 @@
       <created>1376943225867</created>
       <updated>1376943225867</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="snowman knows how to walk backwards too">
+      <created>1376949155477</created>
+      <updated>1376949155477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
+    <frame x="1357" y="-53" width="1698" height="1068" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -611,20 +698,20 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67132866" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50874126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36031044" sideWeight="0.51529986" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36474502" sideWeight="0.49204406" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40465632" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41433567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4135255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924244" sideWeight="0.58566433" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26398602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24296206" sideWeight="0.5864745" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43569845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -635,13 +722,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46674058" sideWeight="0.4847001" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36031044" sideWeight="0.51529986" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40465632" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203991" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2864137" sideWeight="0.63968956" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31263858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24296206" sideWeight="0.5532151" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4467849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -649,9 +736,9 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67132866" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44456762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37915742" sideWeight="0.49204406" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36031044" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4135255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,7 +788,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="snowman knows how to walk backwards too" />
+    <option name="LAST_COMMIT_MESSAGE" value="surfacegameview has a walking snowman plus you can set the number in a textview by dragging your finger accross the screen" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -720,132 +807,132 @@
     <MESSAGE value="made a bit neater. The user can now choose number of frames and time between them" />
     <MESSAGE value="working now as it is supposed to" />
     <MESSAGE value="snowman knows how to walk backwards too" />
+    <MESSAGE value="surfacegameview has a walking snowman plus you can set the number in a textview by dragging your finger accross the screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/AsyncTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="482" selection-end="798" vertical-scroll-proportion="0.20070839" vertical-offset="0" max-vertical-offset="847">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/build/res/all/debug/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.040047113" vertical-offset="0" max-vertical-offset="849">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sleeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="451" selection-end="451" vertical-scroll-proportion="0.55737704" vertical-offset="0" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/OnProgressListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="299" selection-end="351" vertical-scroll-proportion="0.4025501" vertical-offset="0" max-vertical-offset="549">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="553" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding>
-            <element signature="e#427#445#0" expanded="true" />
-            <element signature="e#617#635#0" expanded="true" />
-            <element signature="e#905#934#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="1" selection-start="299" selection-end="351" vertical-scroll-proportion="0.4025501" vertical-offset="0" max-vertical-offset="549" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-25.703703" vertical-offset="88" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="829" column="16" selection-start="37703" selection-end="37703" vertical-scroll-proportion="0.33039647" vertical-offset="14001" max-vertical-offset="19482">
+        <state line="46" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Ourview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-8.615385" vertical-offset="626" max-vertical-offset="1088">
+        <state line="53" column="34" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.85583526" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_menu.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.10776545" vertical-offset="0" max-vertical-offset="631">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/CustomSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/TextView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.21118012" vertical-offset="0" max-vertical-offset="8942" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="491" column="19" selection-start="24098" selection-end="24098" vertical-scroll-proportion="0.33333334" vertical-offset="8157" max-vertical-offset="19482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6612378" vertical-offset="137" max-vertical-offset="1054">
+        <state line="32" column="75" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="50" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1054">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/MySurfaceThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="799">
+          <folding>
+            <element signature="e#427#445#0" expanded="true" />
+            <element signature="e#568#586#0" expanded="true" />
+            <element signature="e#954#983#0" expanded="true" />
+            <element signature="e#1364#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/res/layout/activity_surfacegame.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="1116" selection-end="1116" vertical-scroll-proportion="3.7777777" vertical-offset="510" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/SurfaceGameActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="749" selection-end="749" vertical-scroll-proportion="-8.653846" vertical-offset="64" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowmanAnimationTester/src/main/java/com/example/snowmananimationtester/surfacegame/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="51" selection-start="4564" selection-end="4564" vertical-scroll-proportion="0.8586066" vertical-offset="1638" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
